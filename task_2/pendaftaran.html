@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Pendaftaran Akun</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Title">
+            <h1>Pendaftaran Akun</h1>
+        </div>
+        <div class="content"> 
+            <form action="detail_informasi.php" method="GET">
+                <div class="input">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                    <br/> <br/>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br/><br/>
+            
+                    <label for="telepon">Nomor Ponsel:</label>
+                    <input type="tel" id="telepon" name="telepon" required>
+                    <br/><br/>
+            
+                    <label for="sandi"> Kata Sandi : </label>
+                    <input type="password" id="sandi" name="sandi" required>
+                    <br/><br/>
+                </div>
+                    <button type="submit">Daftar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
